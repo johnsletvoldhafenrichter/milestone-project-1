@@ -1,0 +1,32 @@
+/* --------------------------------- Navbar ------------------- */
+
+nav .navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 10px;
+    width: 125px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    background-color: #bada55;
+    text-align: center;
+
+}
+
+.nav-item-link {
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.dropdownmenulink {
+    color: #000000;
+}
+
+.nav-item-language-pages {
+    width: 70px;
+    background-color: #bada55;
+    border: 1px solid black;
+}
