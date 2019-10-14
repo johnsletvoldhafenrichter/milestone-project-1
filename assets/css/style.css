@@ -1,7 +1,7 @@
 /* --------------------------------- Colors ------------------- */
 
-.bg-green {
-    background-color: #bada55;
+.bg-ivory {
+    background-color: #AEAEA8;
 }
 
 
@@ -33,8 +33,11 @@ header {
     
 }
 
-.navbar-nav {
-     
+.navbar-nav li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    width: 100%;
+    height: 75px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -60,10 +63,11 @@ header {
 }
 
 .dropdownmenulink {
-    color: #000000;
+    font-size: 14px;
 }
 
 .languagemenu {
+    color: #fff;
     font-size: 14px;
     height: 75px;
     padding-top: 4px;
@@ -75,7 +79,7 @@ header {
 }
 
 .nav-item-language-pages {
-    background-color: #bada55;
+
 }
 
 .name {
@@ -88,6 +92,11 @@ header {
 }
 
 /* --------------------------------- style fixing ------------------- */
+main {
+    margin-top: 150px;
+}
+
+/* --------------------------------- style fixing ------------------- */
 
 .padding-margin-none {
     padding: 0;
@@ -96,4 +105,10 @@ header {
 
 .font-none {
     font-size: 0px;
+}
+
+/* --------------------------------- hover.css ------------------- */
+
+.hvr-rectangle-out:before {
+    background: #8B8B83;
 }

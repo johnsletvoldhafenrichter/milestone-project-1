@@ -10,6 +10,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 </head>
@@ -25,56 +27,84 @@
                     </div>
                 </div>
                 <div class="col-9 ">
-                    <ul class="d-none d-md-block col-md-12 navbar-nav list-inline padding-margin-none font-none">
-                        <li class="col-1 list-inline-item nav-item bg-green"><a class="nav-item-link"
-                                href="#"><span>Home</span></a></li>
-                        <li class="col-2 list-inline-item nav-item bg-green"><a class="nav-item-link"
-                                href="#"><span>Education</span></a>
+                    <ul
+                        class="d-none d-md-block col-md-12 navbar-nav list-inline padding-margin-none font-none bg-ivory">
+                        <li class="col-1 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a class="nav-item-link"
+                                href="index.html"><span>Home</span></a></li>
+                        <li class="col-2 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a class="nav-item-link"
+                                href="#myeducation"><span>Education</span></a>
                         </li>
-                        <li class="col-2 list-inline-item nav-item bg-green"><a class="nav-item-link"
+                        <li class="col-2 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a class="nav-item-link"
                                 href="#"><span>Work history</span></a></li>
-                        <li class="col-2 list-inline-item nav-item bg-green"><a class="nav-item-link"
+                        <li class="col-2 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a class="nav-item-link"
                                 href="#"><span>Courses</span></a>
                         </li>
-                        <li class="col-1 list-inline-item nav-item bg-green"><a class="nav-item-link"
+                        <li class="col-1 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a class="nav-item-link"
                                 href="#"><span>Skills</span></a></li>
-                        <li class="col-2 list-inline-item nav-item bg-green dropdown">
+                        <li class="col-2 list-inline-item nav-item bg-ivory hvr-rectangle-out dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span>Certificates</span><span
                                     class="caret"></span></a>
-                            <ul class="nav-item dropdown-menu">
+                            <ul class="dropdown-menu">
                                 <li><a href="#" class="dropdownmenulink">Certificate 1</a></li>
                                 <li><a href="#" class="dropdownmenulink">Certificate 2</a></li>
                                 <li><a href="#" class="dropdownmenulink">Certificate 3</a></li>
                             </ul>
                         </li>
-                        <li class="col-1 list-inline-item nav-item bg-green"><a href="#" target="_blank">CV</a></li>
-                        <li class="col-1 list-inline-item languagemenu bg-green">
-                            <ul class="languages padding-margin-none">
-                                <li class="nav-item-language">EN</li>
-                                <li class="nav-item-language">NO</li>
-                                <li class="nav-item-language">DE</li>
+                        <li class="col-1 list-inline-item nav-item bg-ivory hvr-rectangle-out"><a href="#"
+                                target="_blank">CV</a></li>
+                        <li class="col-1 list-inline-item languagemenu bg-ivory">
+                            <ul class="languages padding-margin-none ">
+                                <li class="nav-item-language bg-ivory">EN</li>
+                                <li class="nav-item-language bg-ivory">NO</li>
+                                <li class="nav-item-language bg-ivory">DE</li>
                             </ul>
                         </li>
                     </ul>
                     <div class="col-12 padding-margin-none">
-                            <div class="name">
-                                <h2 class="fullname">John Sletvold-Hafenrichter</h2>
-                            </div>
-                            <div class="about-me">
-                                <p class="text-about-me">This is an introduction for me</p>
-                            </div>
+                        <div class="name">
+                            <h2 class="fullname">John Sletvold-Hafenrichter</h2>
                         </div>
-                    
+                        <div class="about-me">
+                            <p class="text-about-me">This is an introduction for me</p>
+                        </div>
+                    </div>
+
                 </div>
-                
-
             </div>
-
+        </nav>
     </header>
 
-
-    </nav>
     <!-- -----/navbar---- -->
+
+    <main class="container-fluid padding-margin-none" style="margin-top: 150px;">
+        <div class="row">
+            <div class="col-3">
+                <div class="col">
+                    <h2 class="personal-details">Personal Details:</h2>
+                </div>
+                <div class="col personal-name">
+                    <p>John Sletvold-Hafenrichter</p>
+                </div>
+                <div class="col personal-address">
+                    <p>Skådalsveien 14B</br>
+                    0781 Oslo</p>
+                </div>
+                <div class="col personal-phone">
+                    <p>0047 98 10 80 59</p>
+                </div>
+                <div class="col personal-email">
+                    <p>john.hafenrichter@yahoo.com</p>
+                </div>
+
+            </div>
+            <div class="col-9">
+                <div class="col">
+                    <i class="d-sm-none d-md-block col-md-2 fas fa-book-open"></i>
+                    <h2 class="col-12 col-md-10" id="myeducation" >My Education</h2>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 
